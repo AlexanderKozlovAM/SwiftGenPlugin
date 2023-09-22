@@ -58,6 +58,7 @@ private extension Command {
         "config",
         "run",
         "--verbose",
+        "--allow-writing-to-package-directory",
         "--config", "\(configuration)"
       ],
       environment: [
